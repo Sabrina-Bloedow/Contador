@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Realize sua contagem</h1>
+    </div>
+
+    <div class="cabeçalho">
+
+        <section class="interacoes">
+            <p>Início
+                <input type="number" class="interacoes_entrada entrada_inicio">
+            </p>
+            <p>Passo
+                <input type="number" class="interacoes_entrada entrada_passo">
+            </p>
+            <p>Fim
+                <input type="number" class="interacoes_entrada entrada_fim">
+            </p>
+
+            <input type="button" value="Enviar" id="botao" onclick="contar()">
+        </section>
+    
+        <div id="res">
+            Aguardando os valores para contagem
+        </div>    
+
+    </div>    
+<footer>
+    <p class="copy" >&copy; SBloedow</p>
+</footer>    
+<script src="script.js"></script>
+</body>
+</html>

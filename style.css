@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=DM+Serif+Display:ital@0;1&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Yeseva+One&display=swap');
+
+body {
+    background-color: #808e7b;
+    color: #d9d1bb;
+    font-family: "Volkhov", serif;
+}
+
+.cabeçalho {
+    background-color: #64725e;
+    padding: 50px;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.188);
+    font-weight: 400;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.interacoes_entrada {
+    margin-left: 20px;
+    border-radius: 6px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    border: none;
+    outline: none;
+}    
+
+.entrada_fim {
+    margin-left: 33px;
+}
+
+#botao {
+    background-color: #e1cabc;
+    color: #40483c;
+    margin-top: 17px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.188);
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+
+#botao:hover {
+    transform: scale(1.1);
+}
